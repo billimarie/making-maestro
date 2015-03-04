@@ -5,5 +5,6 @@ An interactive storytelling website utilizing HTML5 video & canvas, Three.js, pl
 ## Updates
 _as of March 3rd_
 
-- read.md
+- [read.md](https://github.com/billimarie/making-maestro/blob/master/README.md)
 - logline, description
+- [todo.md](https://github.com/billimarie/making-maestro/blob/master/TODO.md)
