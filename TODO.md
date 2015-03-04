@@ -33,4 +33,6 @@
 - video compression (o_o!)
   * for web: GoPro, Camera
 - CDN
+  * video hosting?
+  * images, css, js
 - JavaScript (as a replacement for HTML)
