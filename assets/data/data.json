@@ -1,17 +1,19 @@
 "happiness": [{
   "date": "xx/xx/xx",
-  "perma": "happiness-on-xx-xx-xx",
+  "scale": "xx/100",
+  "perma": "happiness-scalex-datex",
   "projector": "xxx",
   "text": "xxx",
   "time": "xx:xx",
-  "title": "Happiness on xx/xx/xx",
+  "title": "Happiness at xx on xx/xx/xx",
   "type": "happiness"
 }, {
   "date": "xx/xx/xx",
-  "perma": "happiness-on-xx-xx-xx",
+  "scale": "xx/100",
+  "perma": "happiness-scalex-datex",
   "projector": "xxx",
   "text": "xxx",
   "time": "xx:xx",
-  "title": "Happiness on xx/xx/xx",
+  "title": "Happiness at xx on xx/xx/xx",
   "type": "happiness"
 }]
