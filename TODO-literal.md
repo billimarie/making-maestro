@@ -11,7 +11,6 @@
 - design UI
   * typography
     - consider Three.js capabilities: projection, tracking, mapping, etc.
-
 - CDN (Amazon)
   * free account (12mo)
 
