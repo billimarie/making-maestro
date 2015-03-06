@@ -1,38 +1,13 @@
 # TODO
 
-- obtain data
-  * measurable data
-  * journal entries
-  * video footage
-    - GoPro
-    - Tripod Camera
+- "movie + book" concept
+  * how to handle both realms, merge into one efficient usable one
+  * balance text with visual movie clips with numerical data
+  * cohesive
 
-- design UI
-  * typography
-    - consider Three.js capabilities: projection, tracking, mapping, etc.
-
-- CDN (Amazon)
-  * free account
-
-- JavaScript
-  * all of it. absolutely no html body. (x_x CHALLENGE ACCEPTED)
-  * Three.js
-
-### Keep In Mind
-
-- how to make it replicable? like a community (sorta...)
+- make replicable (so others can reproduce their projects)
   * tutorial?
   * additional system for user input
     - measurable data
     - journal entries
     - video footage
-- acceptable speed of site
-
-### Research
-
-- video compression (o_o!)
-  * for web: GoPro, Camera
-- CDN
-  * video hosting?
-  * images, css, js
-- JavaScript (as a replacement for HTML)
