@@ -6,33 +6,23 @@
   * video footage
     - GoPro
     - Tripod Camera
-
+- JavaScript
+  * Three.js
 - design UI
   * typography
     - consider Three.js capabilities: projection, tracking, mapping, etc.
 
 - CDN (Amazon)
-  * free account
-
-- JavaScript
-  * all of it. absolutely no html body. (x_x CHALLENGE ACCEPTED)
-  * Three.js
-
-### Keep In Mind
-
-- how to make it replicable? like a community (sorta...)
-  * tutorial?
-  * additional system for user input
-    - measurable data
-    - journal entries
-    - video footage
-- acceptable speed of site
+  * free account (12mo)
 
 ### Research
 
 - video compression (o_o!)
   * for web: GoPro, Camera
+  * won't matter if played at various resolutions (three.js)
 - CDN
   * video hosting?
   * images, css, js
-- JavaScript (as a replacement for HTML)
+- JavaScript
+- Chrome Experiments
+- speed of site
