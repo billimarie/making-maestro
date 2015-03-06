@@ -1,10 +1,11 @@
-# TODO
+# Conceptual TODO
 
 - "movie + book" concept
   * how to handle both realms, merge into one efficient usable one
     - narrative as subtitles
     - each day as a chapter
-  * balance text with visual movie clips with numerical data
+  * table of contents? glossary?
+  * balance text, visual clips, data
   * cohesive
 - make replicable (so others can reproduce their projects)
   * tutorial?
