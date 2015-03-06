@@ -2,6 +2,7 @@
 
 - "movie + book" concept
   * how to handle both realms, merge into one efficient usable one
+    - narrative as subtitles
   * balance text with visual movie clips with numerical data
   * cohesive
 - make replicable (so others can reproduce their projects)
