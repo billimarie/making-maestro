@@ -1,19 +1,61 @@
-"happiness": [{
-  "date": "xx/xx/xx",
-  "scale": "xx/100",
-  "perma": "happiness-scalex-datex",
-  "projector": "xxx",
-  "text": "xxx",
-  "time": "xx:xx",
-  "title": "Happiness at xx on xx/xx/xx",
-  "type": "happiness"
+"chapters": [{
+  "name": "Chapter One",
+  "date": "02/10/14",
+  "id": "day-1",
+  "perma": "chapter-one-additional-title-here",
+  "title": "Chapter One: Additional Title Here",
 }, {
-  "date": "xx/xx/xx",
-  "scale": "xx/100",
-  "perma": "happiness-scalex-datex",
-  "projector": "xxx",
-  "text": "xxx",
-  "time": "xx:xx",
-  "title": "Happiness at xx on xx/xx/xx",
-  "type": "happiness"
+  "name": "Chapter Two",
+  "date": "02/11/14",
+  "id": "day-2",
+  "perma": "chapter-two-additional-title-here",
+  "title": "Chapter Two: Additional Title Here",
+}, {
+  "name": "Chapter Three",
+  "date": "02/12/14",
+  "id": "day-3",
+  "perma": "chapter-three-additional-title-here",
+  "title": "Chapter Three: Additional Title Here",
+}, {
+  "name": "Chapter Four",
+  "date": "02/13/14",
+  "id": "day-4",
+  "perma": "chapter-four-additional-title-here",
+  "title": "Chapter Four: Additional Title Here",
+}, {
+  "name": "Chapter Five",
+  "date": "02/14/14",
+  "id": "day-5",
+  "perma": "chapter-five-additional-title-here",
+  "title": "Chapter Five: Additional Title Here",
+}, {
+  "name": "Chapter Six",
+  "date": "02/15/14",
+  "id": "day-6",
+  "perma": "chapter-six-additional-title-here",
+  "title": "Chapter Six: Additional Title Here",
+}, {
+  "name": "Chapter Seven",
+  "date": "02/16/14",
+  "id": "day-7",
+  "perma": "chapter-seven-additional-title-here",
+  "title": "Chapter Seven: Additional Title Here",
+}, {
+  "name": "Chapter Eight",
+  "date": "02/17/14",
+  "id": "day-8",
+  "perma": "chapter-eight-additional-title-here",
+  "title": "Chapter Eight: Additional Title Here",
+}, {
+  "name": "Chapter Nine",
+  "date": "02/18/14",
+  "id": "day-9",
+  "perma": "chapter-nine-additional-title-here",
+  "title": "Chapter Nine: Additional Title Here",
+}, {
+  "name": "Chapter Ten",
+  "date": "02/19/14",
+  "id": "day-10",
+  "perma": "chapter-ten-additional-title-here",
+  "title": "Chapter 10: Additional Title Here",
 }]
