@@ -8,6 +8,7 @@
     - Tripod Camera
 - JavaScript
   * Three.js
+  * Backbone.js
 - design UI
   * typography
     - consider Three.js capabilities: projection, tracking, mapping, etc.
