@@ -26,3 +26,4 @@
 - JavaScript
 - Chrome Experiments
 - speed of site
+- search through journal entries with tags
