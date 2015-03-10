@@ -1,18 +1,21 @@
 # TODO
 
-- obtain data
-  * measurable data
+- [ ] obtain data
+  * [x] measurable data
     - average out before/after into one
-  * journal entries
-  * video footage
-    - GoPro
-    - Tripod Camera
-- JavaScript
-  * Three.js
-  * Backbone.js
-- design UI
-  * typography
-    - consider Three.js capabilities: projection, tracking, mapping, etc.
+  * [x] journal entries
+  * [ ] video footage
+    - [ ] GoPro
+    - [ ] Tripod Camera
+- [ ] Study JavaScript
+  * [ ] "Eloquent JavaScript"
+  * [ ] Three.js documentation
+  * [ ] "Developing Backbone.js Applications"
+- [ ] design
+  * [ ] typography
+  * [ ] symbols/icons (navigation)
+  * [ ] directions (?)
+  * consider Three.js capabilities: projection, tracking, mapping, etc.
 - CDN (Amazon)
   * free account (12mo)
 
@@ -20,7 +23,7 @@
 
 - video compression (o_o!)
   * for web: GoPro, Camera
-  * won't matter if played at various resolutions (three.js)
+  * NOTE: won't matter if played at half-resolution (three.js)
 - CDN
   * video hosting?
   * images, css, js
