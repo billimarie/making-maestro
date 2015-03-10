@@ -31,15 +31,13 @@
 
 ### Test
 
-- Three Chapters
-- each Chapter has:
-  * FullScreenVideo playing
-  * navigation:
-    - play FullScreenVideo
-    - pause FullScreenVideo
-    - skip between Chapters
-    - display and hide Buttons
-  * buttons:
-    - display and hide GoPro small, toggle between GoPro and FullScreenVideo
-    - display and hide JournalEntry
-    - display and hide Data (Emotions, Practical, Environment)
+**Three Chapters**
+- _FullScreenVideo_ playing
+- navigation:
+  * _play_ FullScreenVideo
+  * _pause_ FullScreenVideo
+  * _skip_ between Chapters
+  * display and hide _Buttons_
+    - display and hide _GoPro_ small, toggle between GoPro and FullScreenVideo
+    - display and hide _JournalEntry_
+    - display and hide _Data_ (Emotions, Practical, Environment)
