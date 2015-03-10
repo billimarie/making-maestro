@@ -2,6 +2,7 @@
 
 - obtain data
   * measurable data
+    - average out before/after into one
   * journal entries
   * video footage
     - GoPro
