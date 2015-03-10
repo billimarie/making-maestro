@@ -9,31 +9,19 @@
                         "date": "02/10/14",
                         "perma": "chapter-one-additional-title-here",
                         "title": "Chapter One: Additional Title Here",
-                        "thumbnail":
-                            {
-                                "url": "img/thumbs/chapter-01.jpg",
-                                "width": 50,
-                                "height": 50
-                            },
-                        "video":
-                            [
-                                { "tripod": "mov/tri/chapter-01.mov" },
-                                { "gopro": "mov/gopro/chapter-01.mov" }
-                            ],
-                        "journal":
-                            {
-                                "url": "journal/chapter-01.txt",
-                                "keywords": "x"
-                            },
+                        "thumbnail": { "url": "img/thumbs/chapter-01.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-01.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-01.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-01.txt", "class": "journalEntry" },
                         "data":
                             [
                                 {
                                     "emotions":
                                         [
-                                            { "happiness": "x" },
-                                            { "depression": "x" },
-                                            { "anxiety": "x" },
-                                            { "enthusiasm": "x" }
+                                            { "happiness": 70 },
+                                            { "depression": null },
+                                            { "anxiety": null },
+                                            { "enthusiasm": null }
                                         ]
                                 }, {
                                     "practical":
@@ -59,22 +47,10 @@
                         "date": "02/11/14",
                         "perma": "chapter-two-additional-title-here",
                         "title": "Chapter Two: Additional Title Here",
-                        "thumbnail":
-                            {
-                                "url": "img/thumbs/chapter-02.jpg",
-                                "width": 50,
-                                "height": 50
-                            },
-                        "video":
-                            [
-                                { "tripod": "mov/tri/chapter-02.mov" },
-                                { "gopro": "mov/gopro/chapter-02.mov" }
-                            ],
-                        "journal":
-                            {
-                                "url": "journal/chapter-02.txt",
-                                "keywords": "x"
-                            },
+                        "thumbnail": { "url": "img/thumbs/chapter-02.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-02.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-02.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-02.txt", "class": "journalEntry" },
                         "data":
                             [
                                 {
@@ -109,22 +85,10 @@
                         "date": "02/12/14",
                         "perma": "chapter-three-additional-title-here",
                         "title": "Chapter Three: Additional Title Here",
-                        "thumbnail":
-                            {
-                                "url": "img/thumbs/chapter-03.jpg",
-                                "width": 50,
-                                "height": 50
-                            },
-                        "video":
-                            [
-                                { "tripod": "mov/tri/chapter-03.mov" },
-                                { "gopro": "mov/gopro/chapter-03.mov" }
-                            ],
-                        "journal":
-                            {
-                                "url": "journal/chapter-03.txt",
-                                "keywords": "x"
-                            },
+                        "thumbnail": { "url": "img/thumbs/chapter-03.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-03.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-03.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-03.txt", "class": "journalEntry" },
                         "data":
                             [
                                 {
@@ -159,22 +123,10 @@
                         "date": "02/13/14",
                         "perma": "chapter-four-additional-title-here",
                         "title": "Chapter Four: Additional Title Here",
-                        "thumbnail":
-                            {
-                                "url": "img/thumbs/chapter-04.jpg",
-                                "width": 50,
-                                "height": 50
-                            },
-                        "video":
-                            [
-                                { "tripod": "mov/tri/chapter-04.mov" },
-                                { "gopro": "mov/gopro/chapter-04.mov" }
-                            ],
-                        "journal":
-                            {
-                                "url": "journal/chapter-04.txt",
-                                "keywords": "x"
-                            },
+                        "thumbnail": { "url": "img/thumbs/chapter-04.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-04.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-04.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-04.txt", "class": "journalEntry" },
                         "data":
                             [
                                 {
@@ -204,12 +156,44 @@
                                 }
                             ]
                     }, {
-    "name": "Chapter Five",
-    "date": "02/14/14",
-    "id": "day-5",
-    "perma": "chapter-five-additional-title-here",
-    "title": "Chapter Five: Additional Title Here",
-  }, {
+                        "id": "05",
+                        "name": "Chapter Five",
+                        "date": "02/14/14",
+                        "perma": "chapter-five-additional-title-here",
+                        "title": "Chapter Five: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-05.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-05.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-05.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-05.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
     "name": "Chapter Six",
     "date": "02/15/14",
     "id": "day-6",
