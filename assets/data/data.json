@@ -1,301 +1,402 @@
-"chapters": [{
-  "name": "Chapter One",
-  "date": "02/10/14",
-  "id": "day-1",
-  "perma": "chapter-one-additional-title-here",
-  "title": "Chapter One: Additional Title Here",
-}, {
-  "name": "Chapter Two",
-  "date": "02/11/14",
-  "id": "day-2",
-  "perma": "chapter-two-additional-title-here",
-  "title": "Chapter Two: Additional Title Here",
-}, {
-  "name": "Chapter Three",
-  "date": "02/12/14",
-  "id": "day-3",
-  "perma": "chapter-three-additional-title-here",
-  "title": "Chapter Three: Additional Title Here",
-}, {
-  "name": "Chapter Four",
-  "date": "02/13/14",
-  "id": "day-4",
-  "perma": "chapter-four-additional-title-here",
-  "title": "Chapter Four: Additional Title Here",
-}, {
-  "name": "Chapter Five",
-  "date": "02/14/14",
-  "id": "day-5",
-  "perma": "chapter-five-additional-title-here",
-  "title": "Chapter Five: Additional Title Here",
-}, {
-  "name": "Chapter Six",
-  "date": "02/15/14",
-  "id": "day-6",
-  "perma": "chapter-six-additional-title-here",
-  "title": "Chapter Six: Additional Title Here",
-}, {
-  "name": "Chapter Seven",
-  "date": "02/16/14",
-  "id": "day-7",
-  "perma": "chapter-seven-additional-title-here",
-  "title": "Chapter Seven: Additional Title Here",
-}, {
-  "name": "Chapter Eight",
-  "date": "02/17/14",
-  "id": "day-8",
-  "perma": "chapter-eight-additional-title-here",
-  "title": "Chapter Eight: Additional Title Here",
-}, {
-  "name": "Chapter Nine",
-  "date": "02/18/14",
-  "id": "day-9",
-  "perma": "chapter-nine-additional-title-here",
-  "title": "Chapter Nine: Additional Title Here",
-}, {
-  "name": "Chapter Ten",
-  "date": "02/19/14",
-  "id": "day-10",
-  "perma": "chapter-ten-additional-title-here",
-  "title": "Chapter Ten: Additional Title Here",
-}, {
-  "name": "Chapter Eleven",
-  "date": "02/20/14",
-  "id": "day-11",
-  "perma": "chapter-eleven-additional-title-here",
-  "title": "Chapter Eleven: Additional Title Here",
-}, {
-  "name": "Chapter Twelve",
-  "date": "02/21/14",
-  "id": "day-12",
-  "perma": "chapter-twelve-additional-title-here",
-  "title": "Chapter Twelve: Additional Title Here",
-}, {
-  "name": "Chapter Thirteen",
-  "date": "02/22/14",
-  "id": "day-13",
-  "perma": "chapter-thirteen-additional-title-here",
-  "title": "Chapter Thirteen: Additional Title Here",
-}, {
-  "name": "Chapter Fourteen",
-  "date": "02/23/14",
-  "id": "day-14",
-  "perma": "chapter-fourteen-additional-title-here",
-  "title": "Chapter Fourteen: Additional Title Here",
-}, {
-  "name": "Chapter Fifteen",
-  "date": "02/24/14",
-  "id": "day-15",
-  "perma": "chapter-fifteen-additional-title-here",
-  "title": "Chapter Fifteen: Additional Title Here",
-}, {
-  "name": "Chapter Sixteen",
-  "date": "02/25/14",
-  "id": "day-16",
-  "perma": "chapter-sixteen-additional-title-here",
-  "title": "Chapter Sixteen: Additional Title Here",
-}, {
-  "name": "Chapter Seventeen",
-  "date": "02/26/14",
-  "id": "day-17",
-  "perma": "chapter-seventeen-additional-title-here",
-  "title": "Chapter Seventeen: Additional Title Here",
-}, {
-  "name": "Chapter Eighteen",
-  "date": "02/27/14",
-  "id": "day-18",
-  "perma": "chapter-eighteen-additional-title-here",
-  "title": "Chapter Eighteen: Additional Title Here",
-}, {
-  "name": "Chapter Nineteen",
-  "date": "02/28/14",
-  "id": "day-19",
-  "perma": "chapter-nineteen-additional-title-here",
-  "title": "Chapter Nineteen: Additional Title Here",
-}, {
-  "name": "Chapter Twenty",
-  "date": "03/01/14",
-  "id": "day-20",
-  "perma": "chapter-twenty-additional-title-here",
-  "title": "Chapter Twenty: Additional Title Here",
-}, {
-  "name": "Chapter Twenty-One",
-  "date": "03/02/14",
-  "id": "day-21",
-  "perma": "chapter-Twenty-One-additional-title-here",
-  "title": "Chapter Twenty-One: Additional Title Here",
-}, {
-  "name": "Chapter Twenty-Two",
-  "date": "03/03/14",
-  "id": "day-22",
-  "perma": "chapter-twenty-two-additional-title-here",
-  "title": "Chapter Twenty-Two: Additional Title Here",
-}, {
-  "name": "Chapter Twenty-Three",
-  "date": "03/04/14",
-  "id": "day-23",
-  "perma": "chapter-twenty-three-additional-title-here",
-  "title": "Chapter Twenty-Three: Additional Title Here",
-}, {
-  "name": "Chapter Twenty-Four",
-  "date": "03/05/14",
-  "id": "day-24",
-  "perma": "chapter-twenty-four-additional-title-here",
-  "title": "Chapter Twenty-Four: Additional Title Here",
-}, {
-  "name": "Chapter Twenty-Five",
-  "date": "03/06/14",
-  "id": "day-25",
-  "perma": "chapter-twenty-five-additional-title-here",
-  "title": "Chapter Twenty-Five: Additional Title Here",
-}, {
-  "name": "Chapter Twenty-Six",
-  "date": "03/07/14",
-  "id": "day-26",
-  "perma": "chapter-twenty-six-additional-title-here",
-  "title": "Chapter Twenty-Six: Additional Title Here",
-}, {
-  "name": "Chapter Twenty-Seven",
-  "date": "03/08/14",
-  "id": "day-27",
-  "perma": "chapter-twenty-seven-additional-title-here",
-  "title": "Chapter Twenty-Seven: Additional Title Here",
-}, {
-  "name": "Chapter Twenty-Eight",
-  "date": "03/09/14",
-  "id": "day-28",
-  "perma": "chapter-twenty-eight-additional-title-here",
-  "title": "Chapter Twenty-Eight: Additional Title Here",
-}, {
-  "name": "Chapter Twenty-Nine",
-  "date": "03/10/14",
-  "id": "day-29",
-  "perma": "chapter-twenty-nine-additional-title-here",
-  "title": "Chapter Twenty-Nine: Additional Title Here",
-}, {
-  "name": "Chapter Thirty",
-  "date": "03/11/14",
-  "id": "day-30",
-  "perma": "chapter-thirty-additional-title-here",
-  "title": "Chapter Thirty: Additional Title Here",
-}, {
-  "name": "Chapter Thirty-One",
-  "date": "03/12/14",
-  "id": "day-31",
-  "perma": "chapter-thirty-one-additional-title-here",
-  "title": "Chapter Thirty-One: Additional Title Here",
-}, {
-  "name": "Chapter Thirty-Two",
-  "date": "03/13/14",
-  "id": "day-32",
-  "perma": "chapter-thirty-two-additional-title-here",
-  "title": "Chapter Thirty-Two: Additional Title Here",
-}, {
-  "name": "Chapter Thirty-Three",
-  "date": "03/14/14",
-  "id": "day-33",
-  "perma": "chapter-thirty-three-additional-title-here",
-  "title": "Chapter Thirty-Three: Additional Title Here",
-}, {
-  "name": "Chapter Thirty-Four",
-  "date": "03/15/14",
-  "id": "day-34",
-  "perma": "chapter-thirty-four-additional-title-here",
-  "title": "Chapter Thirty-Four: Additional Title Here",
-}, {
-  "name": "Chapter Thirty-Five",
-  "date": "03/16/14",
-  "id": "day-35",
-  "perma": "chapter-thirty-five-additional-title-here",
-  "title": "Chapter Thirty-Five: Additional Title Here",
-}, {
-  "name": "Chapter Thirty-Six",
-  "date": "03/17/14",
-  "id": "day-36",
-  "perma": "chapter-thirty-six-additional-title-here",
-  "title": "Chapter Thirty-Six: Additional Title Here",
-}, {
-  "name": "Chapter Thirty-Seven",
-  "date": "03/18/14",
-  "id": "day-37",
-  "perma": "chapter-thirty-seven-additional-title-here",
-  "title": "Chapter Thirty-Seven: Additional Title Here",
-}, {
-  "name": "Chapter Thirty-Eight",
-  "date": "03/19/14",
-  "id": "day-38",
-  "perma": "chapter-thirty-eight-additional-title-here",
-  "title": "Chapter Thirty-Eight: Additional Title Here",
-}, {
-  "name": "Chapter Thirty-Nine",
-  "date": "03/20/14",
-  "id": "day-39",
-  "perma": "chapter-thirty-nine-additional-title-here",
-  "title": "Chapter Thirty-Nine: Additional Title Here",
-}, {
-  "name": "Chapter Forty",
-  "date": "03/21/14",
-  "id": "day-40",
-  "perma": "chapter-fourty-additional-title-here",
-  "title": "Chapter Fourty: Additional Title Here",
-}, {
-  "name": "Chapter Forty-One",
-  "date": "03/22/14",
-  "id": "day-41",
-  "perma": "chapter-forty-one-additional-title-here",
-  "title": "Chapter Forty-One: Additional Title Here",
-}, {
-  "name": "Chapter Forty-Two",
-  "date": "03/23/14",
-  "id": "day-42",
-  "perma": "chapter-forty-two-additional-title-here",
-  "title": "Chapter Forty-Two: Additional Title Here",
-}, {
-  "name": "Chapter Forty-Three",
-  "date": "03/24/14",
-  "id": "day-43",
-  "perma": "chapter-forty-three-additional-title-here",
-  "title": "Chapter Forty-Three: Additional Title Here",
-}, {
-  "name": "Chapter Forty-Four",
-  "date": "03/25/14",
-  "id": "day-44",
-  "perma": "chapter-forty-four-additional-title-here",
-  "title": "Chapter Forty-Four: Additional Title Here",
-}, {
-  "name": "Chapter Forty-Five",
-  "date": "03/26/14",
-  "id": "day-45",
-  "perma": "chapter-forty-five-additional-title-here",
-  "title": "Chapter Forty-Five: Additional Title Here",
-}, {
-  "name": "Chapter Forty-Six",
-  "date": "03/27/14",
-  "id": "day-46",
-  "perma": "chapter-forty-six-additional-title-here",
-  "title": "Chapter Forty-Six: Additional Title Here",
-}, {
-  "name": "Chapter Forty-Seven",
-  "date": "03/28/14",
-  "id": "day-47",
-  "perma": "chapter-forty-seven-additional-title-here",
-  "title": "Chapter forty-Seven: Additional Title Here",
-}, {
-  "name": "Chapter Forty-Eight",
-  "date": "03/29/14",
-  "id": "day-48",
-  "perma": "chapter-forty-eight-additional-title-here",
-  "title": "Chapter Forty-Eight: Additional Title Here",
-}, {
-  "name": "Chapter Forty-Nine",
-  "date": "03/30/14",
-  "id": "day-49",
-  "perma": "chapter-forty-nine-additional-title-here",
-  "title": "Chapter Forty-Nine: Additional Title Here",
-}, {
-  "name": "Chapter Fifty",
-  "date": "04/01/14",
-  "id": "day-51",
-  "perma": "chapter-fifty-additional-title-here",
-  "title": "Chapter Fifty: Additional Title Here",
-}]
+{
+    "chapters": 
+        {
+            "chapter":
+                [
+                    {
+                        "id": "01",
+                        "name": "Chapter One",
+                        "date": "02/10/14",
+                        "perma": "chapter-one-additional-title-here",
+                        "title": "Chapter One: Additional Title Here",
+                        "thumbnail":
+                            {
+                                "url": "img/thumbs/chapter-01.jpg",
+                                "width": 50,
+                                "height": 50
+                            },
+                        "video":
+                            [
+                                { "tripod": "mov/tri/chapter-01.mov" },
+                                { "gopro": "mov/gopro/chapter-01.mov" }
+                            ],
+                        "journal":
+                            {
+                                "url": "journal/chapter-01.txt",
+                                "keywords": "x"
+                            }
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ],
+                    }, {
+                        "id": "02",
+                        "name": "Chapter Two",
+                        "date": "02/11/14",
+                        "perma": "chapter-two-additional-title-here",
+                        "title": "Chapter Two: Additional Title Here",
+                        "thumbnail":
+                            {
+                                "url": "img/thumbs/chapter-02.jpg",
+                                "width": 50,
+                                "height": 50
+                            },
+                        "video":
+                            [
+                                { "tripod": "mov/tri/chapter-02.mov" },
+                                { "gopro": "mov/gopro/chapter-02.mov" }
+                            ],
+                        "journal":
+                            {
+                                "url": "journal/chapter-02.txt",
+                                "keywords": "x"
+                            }
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ],
+                    }, {
+    "name": "Chapter Two",
+    "date": "02/11/14",
+    "id": "day-2",
+    "perma": "chapter-two-additional-title-here",
+    "title": "Chapter Two: Additional Title Here",
+  }, {
+    "name": "Chapter Three",
+    "date": "02/12/14",
+    "id": "day-3",
+    "perma": "chapter-three-additional-title-here",
+    "title": "Chapter Three: Additional Title Here",
+  }, {
+    "name": "Chapter Four",
+    "date": "02/13/14",
+    "id": "day-4",
+    "perma": "chapter-four-additional-title-here",
+    "title": "Chapter Four: Additional Title Here",
+  }, {
+    "name": "Chapter Five",
+    "date": "02/14/14",
+    "id": "day-5",
+    "perma": "chapter-five-additional-title-here",
+    "title": "Chapter Five: Additional Title Here",
+  }, {
+    "name": "Chapter Six",
+    "date": "02/15/14",
+    "id": "day-6",
+    "perma": "chapter-six-additional-title-here",
+    "title": "Chapter Six: Additional Title Here",
+  }, {
+    "name": "Chapter Seven",
+    "date": "02/16/14",
+    "id": "day-7",
+    "perma": "chapter-seven-additional-title-here",
+    "title": "Chapter Seven: Additional Title Here",
+  }, {
+    "name": "Chapter Eight",
+    "date": "02/17/14",
+    "id": "day-8",
+    "perma": "chapter-eight-additional-title-here",
+    "title": "Chapter Eight: Additional Title Here",
+  }, {
+    "name": "Chapter Nine",
+    "date": "02/18/14",
+    "id": "day-9",
+    "perma": "chapter-nine-additional-title-here",
+    "title": "Chapter Nine: Additional Title Here",
+  }, {
+    "name": "Chapter Ten",
+    "date": "02/19/14",
+    "id": "day-10",
+    "perma": "chapter-ten-additional-title-here",
+    "title": "Chapter Ten: Additional Title Here",
+  }, {
+    "name": "Chapter Eleven",
+    "date": "02/20/14",
+    "id": "day-11",
+    "perma": "chapter-eleven-additional-title-here",
+    "title": "Chapter Eleven: Additional Title Here",
+  }, {
+    "name": "Chapter Twelve",
+    "date": "02/21/14",
+    "id": "day-12",
+    "perma": "chapter-twelve-additional-title-here",
+    "title": "Chapter Twelve: Additional Title Here",
+  }, {
+    "name": "Chapter Thirteen",
+    "date": "02/22/14",
+    "id": "day-13",
+    "perma": "chapter-thirteen-additional-title-here",
+    "title": "Chapter Thirteen: Additional Title Here",
+  }, {
+    "name": "Chapter Fourteen",
+    "date": "02/23/14",
+    "id": "day-14",
+    "perma": "chapter-fourteen-additional-title-here",
+    "title": "Chapter Fourteen: Additional Title Here",
+  }, {
+    "name": "Chapter Fifteen",
+    "date": "02/24/14",
+    "id": "day-15",
+    "perma": "chapter-fifteen-additional-title-here",
+    "title": "Chapter Fifteen: Additional Title Here",
+  }, {
+    "name": "Chapter Sixteen",
+    "date": "02/25/14",
+    "id": "day-16",
+    "perma": "chapter-sixteen-additional-title-here",
+    "title": "Chapter Sixteen: Additional Title Here",
+  }, {
+    "name": "Chapter Seventeen",
+    "date": "02/26/14",
+    "id": "day-17",
+    "perma": "chapter-seventeen-additional-title-here",
+    "title": "Chapter Seventeen: Additional Title Here",
+  }, {
+    "name": "Chapter Eighteen",
+    "date": "02/27/14",
+    "id": "day-18",
+    "perma": "chapter-eighteen-additional-title-here",
+    "title": "Chapter Eighteen: Additional Title Here",
+  }, {
+    "name": "Chapter Nineteen",
+    "date": "02/28/14",
+    "id": "day-19",
+    "perma": "chapter-nineteen-additional-title-here",
+    "title": "Chapter Nineteen: Additional Title Here",
+  }, {
+    "name": "Chapter Twenty",
+    "date": "03/01/14",
+    "id": "day-20",
+    "perma": "chapter-twenty-additional-title-here",
+    "title": "Chapter Twenty: Additional Title Here",
+  }, {
+    "name": "Chapter Twenty-One",
+    "date": "03/02/14",
+    "id": "day-21",
+    "perma": "chapter-Twenty-One-additional-title-here",
+    "title": "Chapter Twenty-One: Additional Title Here",
+  }, {
+    "name": "Chapter Twenty-Two",
+    "date": "03/03/14",
+    "id": "day-22",
+    "perma": "chapter-twenty-two-additional-title-here",
+    "title": "Chapter Twenty-Two: Additional Title Here",
+  }, {
+    "name": "Chapter Twenty-Three",
+    "date": "03/04/14",
+    "id": "day-23",
+    "perma": "chapter-twenty-three-additional-title-here",
+    "title": "Chapter Twenty-Three: Additional Title Here",
+  }, {
+    "name": "Chapter Twenty-Four",
+    "date": "03/05/14",
+    "id": "day-24",
+    "perma": "chapter-twenty-four-additional-title-here",
+    "title": "Chapter Twenty-Four: Additional Title Here",
+  }, {
+    "name": "Chapter Twenty-Five",
+    "date": "03/06/14",
+    "id": "day-25",
+    "perma": "chapter-twenty-five-additional-title-here",
+    "title": "Chapter Twenty-Five: Additional Title Here",
+  }, {
+    "name": "Chapter Twenty-Six",
+    "date": "03/07/14",
+    "id": "day-26",
+    "perma": "chapter-twenty-six-additional-title-here",
+    "title": "Chapter Twenty-Six: Additional Title Here",
+  }, {
+    "name": "Chapter Twenty-Seven",
+    "date": "03/08/14",
+    "id": "day-27",
+    "perma": "chapter-twenty-seven-additional-title-here",
+    "title": "Chapter Twenty-Seven: Additional Title Here",
+  }, {
+    "name": "Chapter Twenty-Eight",
+    "date": "03/09/14",
+    "id": "day-28",
+    "perma": "chapter-twenty-eight-additional-title-here",
+    "title": "Chapter Twenty-Eight: Additional Title Here",
+  }, {
+    "name": "Chapter Twenty-Nine",
+    "date": "03/10/14",
+    "id": "day-29",
+    "perma": "chapter-twenty-nine-additional-title-here",
+    "title": "Chapter Twenty-Nine: Additional Title Here",
+  }, {
+    "name": "Chapter Thirty",
+    "date": "03/11/14",
+    "id": "day-30",
+    "perma": "chapter-thirty-additional-title-here",
+    "title": "Chapter Thirty: Additional Title Here",
+  }, {
+    "name": "Chapter Thirty-One",
+    "date": "03/12/14",
+    "id": "day-31",
+    "perma": "chapter-thirty-one-additional-title-here",
+    "title": "Chapter Thirty-One: Additional Title Here",
+  }, {
+    "name": "Chapter Thirty-Two",
+    "date": "03/13/14",
+    "id": "day-32",
+    "perma": "chapter-thirty-two-additional-title-here",
+    "title": "Chapter Thirty-Two: Additional Title Here",
+  }, {
+    "name": "Chapter Thirty-Three",
+    "date": "03/14/14",
+    "id": "day-33",
+    "perma": "chapter-thirty-three-additional-title-here",
+    "title": "Chapter Thirty-Three: Additional Title Here",
+  }, {
+    "name": "Chapter Thirty-Four",
+    "date": "03/15/14",
+    "id": "day-34",
+    "perma": "chapter-thirty-four-additional-title-here",
+    "title": "Chapter Thirty-Four: Additional Title Here",
+  }, {
+    "name": "Chapter Thirty-Five",
+    "date": "03/16/14",
+    "id": "day-35",
+    "perma": "chapter-thirty-five-additional-title-here",
+    "title": "Chapter Thirty-Five: Additional Title Here",
+  }, {
+    "name": "Chapter Thirty-Six",
+    "date": "03/17/14",
+    "id": "day-36",
+    "perma": "chapter-thirty-six-additional-title-here",
+    "title": "Chapter Thirty-Six: Additional Title Here",
+  }, {
+    "name": "Chapter Thirty-Seven",
+    "date": "03/18/14",
+    "id": "day-37",
+    "perma": "chapter-thirty-seven-additional-title-here",
+    "title": "Chapter Thirty-Seven: Additional Title Here",
+  }, {
+    "name": "Chapter Thirty-Eight",
+    "date": "03/19/14",
+    "id": "day-38",
+    "perma": "chapter-thirty-eight-additional-title-here",
+    "title": "Chapter Thirty-Eight: Additional Title Here",
+  }, {
+    "name": "Chapter Thirty-Nine",
+    "date": "03/20/14",
+    "id": "day-39",
+    "perma": "chapter-thirty-nine-additional-title-here",
+    "title": "Chapter Thirty-Nine: Additional Title Here",
+  }, {
+    "name": "Chapter Forty",
+    "date": "03/21/14",
+    "id": "day-40",
+    "perma": "chapter-fourty-additional-title-here",
+    "title": "Chapter Fourty: Additional Title Here",
+  }, {
+    "name": "Chapter Forty-One",
+    "date": "03/22/14",
+    "id": "day-41",
+    "perma": "chapter-forty-one-additional-title-here",
+    "title": "Chapter Forty-One: Additional Title Here",
+  }, {
+    "name": "Chapter Forty-Two",
+    "date": "03/23/14",
+    "id": "day-42",
+    "perma": "chapter-forty-two-additional-title-here",
+    "title": "Chapter Forty-Two: Additional Title Here",
+  }, {
+    "name": "Chapter Forty-Three",
+    "date": "03/24/14",
+    "id": "day-43",
+    "perma": "chapter-forty-three-additional-title-here",
+    "title": "Chapter Forty-Three: Additional Title Here",
+  }, {
+    "name": "Chapter Forty-Four",
+    "date": "03/25/14",
+    "id": "day-44",
+    "perma": "chapter-forty-four-additional-title-here",
+    "title": "Chapter Forty-Four: Additional Title Here",
+  }, {
+    "name": "Chapter Forty-Five",
+    "date": "03/26/14",
+    "id": "day-45",
+    "perma": "chapter-forty-five-additional-title-here",
+    "title": "Chapter Forty-Five: Additional Title Here",
+  }, {
+    "name": "Chapter Forty-Six",
+    "date": "03/27/14",
+    "id": "day-46",
+    "perma": "chapter-forty-six-additional-title-here",
+    "title": "Chapter Forty-Six: Additional Title Here",
+  }, {
+    "name": "Chapter Forty-Seven",
+    "date": "03/28/14",
+    "id": "day-47",
+    "perma": "chapter-forty-seven-additional-title-here",
+    "title": "Chapter forty-Seven: Additional Title Here",
+  }, {
+    "name": "Chapter Forty-Eight",
+    "date": "03/29/14",
+    "id": "day-48",
+    "perma": "chapter-forty-eight-additional-title-here",
+    "title": "Chapter Forty-Eight: Additional Title Here",
+  }, {
+    "name": "Chapter Forty-Nine",
+    "date": "03/30/14",
+    "id": "day-49",
+    "perma": "chapter-forty-nine-additional-title-here",
+    "title": "Chapter Forty-Nine: Additional Title Here",
+  }, {
+    "name": "Chapter Fifty",
+    "date": "04/01/14",
+    "id": "day-51",
+    "perma": "chapter-fifty-additional-title-here",
+    "title": "Chapter Fifty: Additional Title Here",
+  }
+}
+}
