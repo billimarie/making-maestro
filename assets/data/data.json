@@ -52,7 +52,7 @@
                                             { "weather": "sunny" }
                                         ]
                                 }
-                            ],
+                            ]
                     }, {
                         "id": "02",
                         "name": "Chapter Two",
@@ -102,7 +102,7 @@
                                             { "weather": "sunny" }
                                         ]
                                 }
-                            ],
+                            ]
                     }, {
     "name": "Chapter Two",
     "date": "02/11/14",
