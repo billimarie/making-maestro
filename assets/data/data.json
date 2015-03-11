@@ -19,25 +19,40 @@
                                     "emotions":
                                         [
                                             { "happiness": 70 },
-                                            { "depression": null },
-                                            { "anxiety": null },
                                             { "enthusiasm": null }
+                                            { "energy": null }
+                                            { "anxiety": null },
+                                            { "depression": null },
+                                            { "self-img": null },
+                                            { "rested": null },
+                                            { "full": null },
+                                            { "lonely": null }
                                         ]
                                 }, {
                                     "practical":
                                         [
-                                            { "chores": true },
-                                            { "email": true },
-                                            { "masturbation": true },
-                                            { "calls": false },
-                                            { "laundry": false }
+                                            { "intox": 0, "intox-type": null }
+                                            { "dishes": null },
+                                            { "laundry": null },
+                                            { "masturbation": null },
+                                            { "craigslist": null },
+                                            { "calls-received": null, "calls-sent": null },
+                                            { "smoking": false },
+                                            { "drinking": false },
+                                            { "exercise": false },
+                                            { "shower": null },
+                                            { "teeth": null },
+                                            { "nutrition": null },
+                                            { "songs": 2 }
                                         ]
                                 }, {
                                     "environmental":
                                         [
-                                            { "temp": 70 },
+                                            { "temp": 62 },
                                             { "location": "Westwood" },
-                                            { "weather": "sunny" }
+                                            { "weather": "clear" },
+                                            { "wind": 7 },
+                                            { "humidity": 62 }
                                         ]
                                 }
                             ]
@@ -56,26 +71,41 @@
                                 {
                                     "emotions":
                                         [
-                                            { "happiness": "x" },
-                                            { "depression": "x" },
-                                            { "anxiety": "x" },
-                                            { "enthusiasm": "x" }
+                                            { "happiness": 0 },
+                                            { "enthusiasm": null }
+                                            { "energy": null }
+                                            { "anxiety": null },
+                                            { "depression": null },
+                                            { "self-img": null },
+                                            { "rested": null },
+                                            { "full": null },
+                                            { "lonely": null }
                                         ]
                                 }, {
                                     "practical":
                                         [
-                                            { "chores": true },
-                                            { "email": true },
-                                            { "masturbation": true },
-                                            { "calls": false },
-                                            { "laundry": false }
+                                            { "intox": 0, "intox-type": null }
+                                            { "dishes": null },
+                                            { "laundry": null },
+                                            { "masturbation": null },
+                                            { "craigslist": null },
+                                            { "calls-received": null, "calls-sent": null },
+                                            { "smoking": false },
+                                            { "drinking": false },
+                                            { "exercise": false },
+                                            { "shower": null },
+                                            { "teeth": null },
+                                            { "nutrition": null },
+                                            { "songs": 0 }
                                         ]
                                 }, {
                                     "environmental":
                                         [
-                                            { "temp": 70 },
+                                            { "temp": null },
                                             { "location": "Westwood" },
-                                            { "weather": "sunny" }
+                                            { "weather": "clear" },
+                                            { "wind": 2 },
+                                            { "humidity": 59 }
                                         ]
                                 }
                             ]
@@ -94,26 +124,41 @@
                                 {
                                     "emotions":
                                         [
-                                            { "happiness": "x" },
-                                            { "depression": "x" },
-                                            { "anxiety": "x" },
-                                            { "enthusiasm": "x" }
+                                            { "happiness": 40 },
+                                            { "enthusiasm": null }
+                                            { "energy": null }
+                                            { "anxiety": null },
+                                            { "depression": null },
+                                            { "self-img": null },
+                                            { "rested": null },
+                                            { "full": null },
+                                            { "lonely": null }
                                         ]
                                 }, {
                                     "practical":
                                         [
-                                            { "chores": true },
-                                            { "email": true },
-                                            { "masturbation": true },
-                                            { "calls": false },
-                                            { "laundry": false }
+                                            { "intox": 0, "intox-type": null }
+                                            { "dishes": null },
+                                            { "laundry": null },
+                                            { "masturbation": null },
+                                            { "craigslist": null },
+                                            { "calls-received": null, "calls-sent": null },
+                                            { "smoking": false },
+                                            { "drinking": false },
+                                            { "exercise": false },
+                                            { "shower": null },
+                                            { "teeth": null },
+                                            { "nutrition": null },
+                                            { "songs": 2 }
                                         ]
                                 }, {
                                     "environmental":
                                         [
-                                            { "temp": 70 },
+                                            { "temp": null },
                                             { "location": "Westwood" },
-                                            { "weather": "sunny" }
+                                            { "weather": "clear" },
+                                            { "wind": 1 },
+                                            { "humidity": 50 }
                                         ]
                                 }
                             ]
