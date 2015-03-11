@@ -194,108 +194,652 @@
                                 }
                             ]
                     }, {
-    "name": "Chapter Six",
-    "date": "02/15/14",
-    "id": "day-6",
-    "perma": "chapter-six-additional-title-here",
-    "title": "Chapter Six: Additional Title Here",
-  }, {
-    "name": "Chapter Seven",
-    "date": "02/16/14",
-    "id": "day-7",
-    "perma": "chapter-seven-additional-title-here",
-    "title": "Chapter Seven: Additional Title Here",
-  }, {
-    "name": "Chapter Eight",
-    "date": "02/17/14",
-    "id": "day-8",
-    "perma": "chapter-eight-additional-title-here",
-    "title": "Chapter Eight: Additional Title Here",
-  }, {
-    "name": "Chapter Nine",
-    "date": "02/18/14",
-    "id": "day-9",
-    "perma": "chapter-nine-additional-title-here",
-    "title": "Chapter Nine: Additional Title Here",
-  }, {
-    "name": "Chapter Ten",
-    "date": "02/19/14",
-    "id": "day-10",
-    "perma": "chapter-ten-additional-title-here",
-    "title": "Chapter Ten: Additional Title Here",
-  }, {
-    "name": "Chapter Eleven",
-    "date": "02/20/14",
-    "id": "day-11",
-    "perma": "chapter-eleven-additional-title-here",
-    "title": "Chapter Eleven: Additional Title Here",
-  }, {
-    "name": "Chapter Twelve",
-    "date": "02/21/14",
-    "id": "day-12",
-    "perma": "chapter-twelve-additional-title-here",
-    "title": "Chapter Twelve: Additional Title Here",
-  }, {
-    "name": "Chapter Thirteen",
-    "date": "02/22/14",
-    "id": "day-13",
-    "perma": "chapter-thirteen-additional-title-here",
-    "title": "Chapter Thirteen: Additional Title Here",
-  }, {
-    "name": "Chapter Fourteen",
-    "date": "02/23/14",
-    "id": "day-14",
-    "perma": "chapter-fourteen-additional-title-here",
-    "title": "Chapter Fourteen: Additional Title Here",
-  }, {
-    "name": "Chapter Fifteen",
-    "date": "02/24/14",
-    "id": "day-15",
-    "perma": "chapter-fifteen-additional-title-here",
-    "title": "Chapter Fifteen: Additional Title Here",
-  }, {
-    "name": "Chapter Sixteen",
-    "date": "02/25/14",
-    "id": "day-16",
-    "perma": "chapter-sixteen-additional-title-here",
-    "title": "Chapter Sixteen: Additional Title Here",
-  }, {
-    "name": "Chapter Seventeen",
-    "date": "02/26/14",
-    "id": "day-17",
-    "perma": "chapter-seventeen-additional-title-here",
-    "title": "Chapter Seventeen: Additional Title Here",
-  }, {
-    "name": "Chapter Eighteen",
-    "date": "02/27/14",
-    "id": "day-18",
-    "perma": "chapter-eighteen-additional-title-here",
-    "title": "Chapter Eighteen: Additional Title Here",
-  }, {
-    "name": "Chapter Nineteen",
-    "date": "02/28/14",
-    "id": "day-19",
-    "perma": "chapter-nineteen-additional-title-here",
-    "title": "Chapter Nineteen: Additional Title Here",
-  }, {
-    "name": "Chapter Twenty",
-    "date": "03/01/14",
-    "id": "day-20",
-    "perma": "chapter-twenty-additional-title-here",
-    "title": "Chapter Twenty: Additional Title Here",
-  }, {
-    "name": "Chapter Twenty-One",
-    "date": "03/02/14",
-    "id": "day-21",
-    "perma": "chapter-Twenty-One-additional-title-here",
-    "title": "Chapter Twenty-One: Additional Title Here",
-  }, {
-    "name": "Chapter Twenty-Two",
-    "date": "03/03/14",
-    "id": "day-22",
-    "perma": "chapter-twenty-two-additional-title-here",
-    "title": "Chapter Twenty-Two: Additional Title Here",
-  }, {
+                        "id": "06",
+                        "name": "Chapter Six",
+                        "date": "02/15/14",
+                        "perma": "chapter-six-additional-title-here",
+                        "title": "Chapter Six: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-06.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-06.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-06.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-06.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "07",
+                        "name": "Chapter Seven",
+                        "date": "02/16/14",
+                        "perma": "chapter-seven-additional-title-here",
+                        "title": "Chapter Seven: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-07.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-07.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-07.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-07.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "08",
+                        "name": "Chapter Eight",
+                        "date": "02/17/14",
+                        "perma": "chapter-eight-additional-title-here",
+                        "title": "Chapter Eight: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-08.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-08.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-08.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-08.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "09",
+                        "name": "Chapter Nine",
+                        "date": "02/18/14",
+                        "perma": "chapter-nine-additional-title-here",
+                        "title": "Chapter Nine: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-09.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-09.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-09.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-09.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "10",
+                        "name": "Chapter Ten",
+                        "date": "02/19/14",
+                        "perma": "chapter-ten-additional-title-here",
+                        "title": "Chapter Ten: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-10.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-10.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-10.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-10.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "11",
+                        "name": "Chapter Eleven",
+                        "date": "02/20/14",
+                        "perma": "chapter-eleven-additional-title-here",
+                        "title": "Chapter Eleven: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-11.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-11.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-11.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-11.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "12",
+                        "name": "Chapter Twelve",
+                        "date": "02/21/14",
+                        "perma": "chapter-twelve-additional-title-here",
+                        "title": "Chapter Twelve: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-12.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-12.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-12.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-12.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "13",
+                        "name": "Chapter Thirteen",
+                        "date": "02/22/14",
+                        "perma": "chapter-thirteen-additional-title-here",
+                        "title": "Chapter Thirteen: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-13.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-13.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-13.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-13.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "14",
+                        "name": "Chapter Fourteen",
+                        "date": "02/23/14",
+                        "perma": "chapter-fourteen-additional-title-here",
+                        "title": "Chapter Fourteen: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-14.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-14.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-14.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-14.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "15",
+                        "name": "Chapter Fifteen",
+                        "date": "02/24/14",
+                        "perma": "chapter-fifteen-additional-title-here",
+                        "title": "Chapter Fifteen: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-15.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-15.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-15.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-15.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "16",
+                        "name": "Chapter Sixteen",
+                        "date": "02/25/14",
+                        "perma": "chapter-sixteen-additional-title-here",
+                        "title": "Chapter Sixteen: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-16.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-16.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-16.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-16.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "17",
+                        "name": "Chapter Seventeen",
+                        "date": "02/26/14",
+                        "perma": "chapter-seventeen-additional-title-here",
+                        "title": "Chapter Seventeen: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-17.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-17.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-17.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-17.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "18",
+                        "name": "Chapter Eighteen",
+                        "date": "02/27/14",
+                        "perma": "chapter-eighteen-additional-title-here",
+                        "title": "Chapter Eighteen: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-18.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-18.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-18.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-18.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "19",
+                        "name": "Chapter Nineteen",
+                        "date": "02/28/14",
+                        "perma": "chapter-nineteen-additional-title-here",
+                        "title": "Chapter Nineteen: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-19.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-19.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-19.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-19.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "20",
+                        "name": "Chapter Twenty",
+                        "date": "03/01/14",
+                        "perma": "chapter-twenty-additional-title-here",
+                        "title": "Chapter Twenty: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-20.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-20.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-20.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-20.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "21",
+                        "name": "Chapter Twenty-One",
+                        "date": "03/02/14",
+                        "perma": "chapter-Twenty-One-additional-title-here",
+                        "title": "Chapter Twenty-One: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-21.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-21.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-21.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-21.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
+                        "id": "22",
+                        "name": "Chapter Twenty-Two",
+                        "date": "03/03/14",
+                        "perma": "chapter-twenty-two-additional-title-here",
+                        "title": "Chapter Twenty-Two: Additional Title Here",
+                        "thumbnail": { "url": "img/thumbs/chapter-22.jpg", "width": 50, "height": 50 },
+                        "video": { "url": "mov/tri/chapter-22.mov", "class": "fullScreenVideo" },
+                        "gopro": { "url": "mov/gopro/chapter-22.mov", "class": "goProVideo" },
+                        "journal": { "url": "journal/chapter-22.txt", "class": "journalEntry" },
+                        "data":
+                            [
+                                {
+                                    "emotions":
+                                        [
+                                            { "happiness": "x" },
+                                            { "depression": "x" },
+                                            { "anxiety": "x" },
+                                            { "enthusiasm": "x" }
+                                        ]
+                                }, {
+                                    "practical":
+                                        [
+                                            { "chores": true },
+                                            { "email": true },
+                                            { "masturbation": true },
+                                            { "calls": false },
+                                            { "laundry": false }
+                                        ]
+                                }, {
+                                    "environmental":
+                                        [
+                                            { "temp": 70 },
+                                            { "location": "Westwood" },
+                                            { "weather": "sunny" }
+                                        ]
+                                }
+                            ]
+                    }, {
     "name": "Chapter Twenty-Three",
     "date": "03/04/14",
     "id": "day-23",
