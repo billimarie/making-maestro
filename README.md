@@ -8,3 +8,4 @@ _as of March 10th_
 - JSON data structure
 - [read.md](https://github.com/billimarie/making-maestro/blob/master/README.md)
 - [TODO.md](https://github.com/billimarie/making-maestro/blob/master/TODO-literal.md)
+- minified JSON
