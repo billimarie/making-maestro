@@ -12,6 +12,7 @@
                         "thumbnail": { "url": "img/thumbs/chapter-01.jpg", "width": 50, "height": 50 },
                         "video": { "url": "mov/tri/chapter-01.mov", "class": "fullScreenVideo" },
                         "gopro": { "url": "mov/gopro/chapter-01.mov", "class": "goProVideo" },
+                        "vlog": { "url": "mov/iphone/chapter-01.mov", "class": "vlog" },
                         "journal": { "url": "journal/chapter-01.txt", "class": "journalEntry" },
                         "data":
                             [
@@ -65,6 +66,7 @@
                         "thumbnail": { "url": "img/thumbs/chapter-02.jpg", "width": 50, "height": 50 },
                         "video": { "url": "mov/tri/chapter-02.mov", "class": "fullScreenVideo" },
                         "gopro": { "url": "mov/gopro/chapter-02.mov", "class": "goProVideo" },
+                        "vlog": { "url": "mov/iphone/chapter-02.mov", "class": "vlog" },
                         "journal": { "url": "journal/chapter-02.txt", "class": "journalEntry" },
                         "data":
                             [
@@ -118,6 +120,7 @@
                         "thumbnail": { "url": "img/thumbs/chapter-03.jpg", "width": 50, "height": 50 },
                         "video": { "url": "mov/tri/chapter-03.mov", "class": "fullScreenVideo" },
                         "gopro": { "url": "mov/gopro/chapter-03.mov", "class": "goProVideo" },
+                        "vlog": { "url": "mov/iphone/chapter-03.mov", "class": "vlog" },
                         "journal": { "url": "journal/chapter-03.txt", "class": "journalEntry" },
                         "data":
                             [
@@ -171,6 +174,7 @@
                         "thumbnail": { "url": "img/thumbs/chapter-04.jpg", "width": 50, "height": 50 },
                         "video": { "url": "mov/tri/chapter-04.mov", "class": "fullScreenVideo" },
                         "gopro": { "url": "mov/gopro/chapter-04.mov", "class": "goProVideo" },
+                        "vlog": { "url": "mov/iphone/chapter-04.mov", "class": "vlog" },
                         "journal": { "url": "journal/chapter-04.txt", "class": "journalEntry" },
                         "data":
                             [
@@ -209,6 +213,7 @@
                         "thumbnail": { "url": "img/thumbs/chapter-05.jpg", "width": 50, "height": 50 },
                         "video": { "url": "mov/tri/chapter-05.mov", "class": "fullScreenVideo" },
                         "gopro": { "url": "mov/gopro/chapter-05.mov", "class": "goProVideo" },
+                        "vlog": { "url": "mov/iphone/chapter-05.mov", "class": "vlog" },
                         "journal": { "url": "journal/chapter-05.txt", "class": "journalEntry" },
                         "data":
                             [
@@ -247,6 +252,7 @@
                         "thumbnail": { "url": "img/thumbs/chapter-06.jpg", "width": 50, "height": 50 },
                         "video": { "url": "mov/tri/chapter-06.mov", "class": "fullScreenVideo" },
                         "gopro": { "url": "mov/gopro/chapter-06.mov", "class": "goProVideo" },
+                        "vlog": { "url": "mov/iphone/chapter-06.mov", "class": "vlog" },
                         "journal": { "url": "journal/chapter-06.txt", "class": "journalEntry" },
                         "data":
                             [
@@ -285,6 +291,7 @@
                         "thumbnail": { "url": "img/thumbs/chapter-07.jpg", "width": 50, "height": 50 },
                         "video": { "url": "mov/tri/chapter-07.mov", "class": "fullScreenVideo" },
                         "gopro": { "url": "mov/gopro/chapter-07.mov", "class": "goProVideo" },
+                        "vlog": { "url": "mov/iphone/chapter-07.mov", "class": "vlog" },
                         "journal": { "url": "journal/chapter-07.txt", "class": "journalEntry" },
                         "data":
                             [
@@ -323,6 +330,7 @@
                         "thumbnail": { "url": "img/thumbs/chapter-08.jpg", "width": 50, "height": 50 },
                         "video": { "url": "mov/tri/chapter-08.mov", "class": "fullScreenVideo" },
                         "gopro": { "url": "mov/gopro/chapter-08.mov", "class": "goProVideo" },
+                        "vlog": { "url": "mov/iphone/chapter-08.mov", "class": "vlog" },
                         "journal": { "url": "journal/chapter-08.txt", "class": "journalEntry" },
                         "data":
                             [
@@ -361,6 +369,7 @@
                         "thumbnail": { "url": "img/thumbs/chapter-09.jpg", "width": 50, "height": 50 },
                         "video": { "url": "mov/tri/chapter-09.mov", "class": "fullScreenVideo" },
                         "gopro": { "url": "mov/gopro/chapter-09.mov", "class": "goProVideo" },
+                        "vlog": { "url": "mov/iphone/chapter-09.mov", "class": "vlog" },
                         "journal": { "url": "journal/chapter-09.txt", "class": "journalEntry" },
                         "data":
                             [
@@ -399,6 +408,7 @@
                         "thumbnail": { "url": "img/thumbs/chapter-10.jpg", "width": 50, "height": 50 },
                         "video": { "url": "mov/tri/chapter-10.mov", "class": "fullScreenVideo" },
                         "gopro": { "url": "mov/gopro/chapter-10.mov", "class": "goProVideo" },
+                        "vlog": { "url": "mov/iphone/chapter-10.mov", "class": "vlog" },
                         "journal": { "url": "journal/chapter-10.txt", "class": "journalEntry" },
                         "data":
                             [
