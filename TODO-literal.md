@@ -7,6 +7,7 @@
   * [ ] video footage
     - [ ] GoPro
     - [ ] Tripod Camera
+    - [ ] Vlog
 - [ ] Study JavaScript
   * [ ] "Eloquent JavaScript"
   * [ ] Three.js documentation
@@ -22,7 +23,7 @@
 ### Research
 
 - video compression (o_o!)
-  * for web: GoPro, Camera
+  * for web: GoPro, Camera, Vlog
   * NOTE: won't matter if played at half-resolution (three.js)
 - CDN
   * video hosting?
@@ -34,7 +35,7 @@
 
 ### Test
 
-**Three Chapters**
+**Chapters**
 - _FullScreenVideo_ playing
 - navigation:
   * _play_ FullScreenVideo
@@ -44,3 +45,4 @@
     - display and hide _GoPro_ small, toggle between GoPro and FullScreenVideo
     - display and hide _JournalEntry_
     - display and hide _Data_ (Emotions, Practical, Environment)
+    
