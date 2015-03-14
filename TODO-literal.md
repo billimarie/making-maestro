@@ -19,15 +19,13 @@
   * consider Three.js capabilities: projection, tracking, mapping, etc.
 - CDN (Amazon)
   * free account (12mo)
+  * compressed videos? (amazon cloudfront = 50gb)
 
 ### Research
 
 - video compression (o_o!)
   * for web: GoPro, Camera, Vlog
-  * NOTE: won't matter if played at half-resolution (three.js)
-- CDN
-  * video hosting?
-  * images, css, js
+  * play at half-resolution? (three.js)
 - JavaScript
 - Chrome Experiments
 - speed of site
@@ -36,13 +34,17 @@
 ### Test
 
 **Chapters**
-- _FullScreenVideo_ playing
-- navigation:
+- twinkle intro (as pre-loader?)
+- _FullScreenVideo_ begins playing
+- navigation fades in (passive)
   * _play_ FullScreenVideo
   * _pause_ FullScreenVideo
   * _skip_ between Chapters
-  * display and hide _Buttons_
-    - display and hide _GoPro_ small, toggle between GoPro and FullScreenVideo
-    - display and hide _JournalEntry_
+  * display and hide _Buttons_ (enjoy theRide)
+    - display and hide alternate videos
+      * toggle between _GoPro_, _FullScreenVideo_, _Vlog_
+    - display and hide _JournalEntry_ (as subtitles)
     - display and hide _Data_ (Emotions, Practical, Environment)
-    
+- narration
+  * clips in randomized order
+  * subtitle navigation (clickable)
