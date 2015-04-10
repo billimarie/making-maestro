@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>JavaScript & Canvas Test</title>
+
+<style>
+	body {
+		background-color: #ccc;
+		font-family: "georgia", "times new roman", times, serif;
+		font-size: 24px;
+	}
+	div {
+		margin: 0 auto;
+		text-align: center;
+	}
+	#canvasJS {
+		border: 1px solid black;
+	}
+</style>
+
+</head>
+
+<body>
+
+	<div>
+		<p>Hello World</p>
+		<canvas id="canvasJS">
+		</canvas>
+	</div>
+
+	<script type="application/javascript">
+    function draw() {
+      var canvasJS = document.getElementById("canvasJS");
+
+      
+
+      if (canvasJS.getContext) {
+        var canvasContext = canvasJS.getContext("2d");
+
+        canvasContext.fillStyle = "rgb(200,0,0)";
+        canvasContext.fillRect (10, 10, 55, 50);
+
+        canvasContext.fillStyle = "rgba(0, 0, 200, 0.5)";
+        canvasContext.fillRect (30, 30, 55, 50);
+      }
+    }
+
+    draw();
+  </script>
+
+</body>
+
+</html>

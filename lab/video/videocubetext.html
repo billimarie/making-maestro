@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Making Maestro | Cube with Video Material plus Text (#3)</title>
+  <style>
+    body {
+      font-family: helvetica, arial, sans serif;
+      margin: 0px;
+      overflow: hidden
+	}
+  </style>
+</head>
+<body>
+  <script src='../js/three.min.js'></script>
+  <script src='../js/renderers/Projector.js'></script>
+  <script src='../js/renderers/CanvasRenderer.js'></script>
+
+  <script>
+
+      var container; // init(); 1st line
+
+      var camera, scene, renderer;
+
+      var videoDay1, image, imageContext,
+      imageReflection, imageReflectionContext, imageReflectionGradient,
+      texture, textureReflection;
+
+      var mesh;
+
+      var cubeRandomColors, cubeVideo;
+
+      var group, text;
+
+      var mouseX = 0;
+      var mouseY = 0;
+
+      var windowHalfX = window.innerWidth / 2;
+      var windowHalfY = window.innerHeight / 2;
+
+      init();
+      animate();
+
+      function init() {
+
+        container = document.createElement( 'div' );
+        document.body.appendChild( container );
+
+        var info = document.createElement( 'div' );
+        info.style.position = 'absolute';
+        info.style.top = '10px';
+        info.style.width = '100%';
+        info.style.textAlign = 'center';
+        info.innerHTML = '<a href="index.html">Video Object with Text and Reflection</a>' + '&nbsp;|&nbsp;' + '<a href="videocubematerial.html">Video Cube Material</a>' + '&nbsp;|&nbsp;' + '<a href="videocubetext.html">Video Cube with Text</a>' + '&nbsp;|&nbsp;' + '<a href="differentvideoscube.html">Different Videos as Faces on Cube</a>';
+        container.appendChild( info );
+
+        //
+
+        camera = new THREE.PerspectiveCamera( 45, window.innerWidth / window.innerHeight, 1, 10000 );
+        camera.position.z = 1000;
+
+        scene = new THREE.Scene();
+
+        //
+
+        videoDay1 = document.createElement('video');
+        videoDay1.id = 'videoDay1';
+        videoDay1.src = '../footage/022014.mp4';
+        videoDay1.load();
+        videoDay1.play();
+        videoDay1.loop = true;
+        videoDay1.muted = true;
+
+        image = document.createElement( 'canvas' );
+
+        imageContext = image.getContext( '2d' );
+
+        texture = new THREE.Texture( image );
+
+        var material = new THREE.MeshBasicMaterial( { map: texture, overdraw: 0.5 } );
+
+        //
+
+        var canvasText = document.createElement( 'canvas' );
+        canvasText.width = window.innerWidth;
+        canvasText.height = window.innerHeight;
+
+        var videoDate = canvasText.getContext('2d');
+        videoDate.font = 'Bold 40px Calibri';
+        videoDate.fillStyle = 'blue';
+        videoDate.fillText('call journal entries here (VTT?)', 10, 100);
+
+        var textureText = new THREE.Texture( canvasText );
+        textureText.needsUpdate = true;
+
+        var materialText = new THREE.MeshBasicMaterial( { map: textureText, side: THREE.DoubleSide } );
+        materialText.transparent = true;
+
+        var meshText = new THREE.Mesh(
+          new THREE.PlaneGeometry(canvasText.width, canvasText.height),
+          materialText
+        );
+
+        meshText.position.set(0, -100, 200);
+        scene.add( meshText );
+
+        //
+
+        var cubeGeometry = new THREE.BoxGeometry( 200, 200, 200 );
+
+		    for ( var i = 0; i < cubeGeometry.faces.length; i += 2 ) {
+		      var hex = Math.random() * 0xffffff;
+		      cubeGeometry.faces[ i ].color.setHex( hex );
+		      cubeGeometry.faces[ i + 1 ].color.setHex( hex );
+		    }
+		
+		    var cubeMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.FaceColors, overdraw: 0.5 } );
+
+    		cubeRandomColors = new THREE.Mesh( cubeGeometry, cubeMaterial );
+		    cubeRandomColors.position.set(400, 0, 600);
+		    scene.add( cubeRandomColors );	
+
+        //
+
+        var cubeVideoGeometry = new THREE.BoxGeometry( 200, 200, 200 );
+
+		    for ( var i = 0; i < cubeVideoGeometry.faces.length; i += 2 ) {
+		      var hex = Math.random() * 0xffffff;
+    		  cubeVideoGeometry.faces[ i ].color.setHex( hex );
+		      cubeVideoGeometry.faces[ i + 1 ].color.setHex( hex );
+	 	    }
+		
+		    var cubeVideoMaterial = new THREE.MeshBasicMaterial( { vertexColors: THREE.FaceColors, overdraw: 0.5 } );
+
+		    cubeVideo = new THREE.Mesh( cubeVideoGeometry, material );
+        cubeVideo.position.set(-100, -20, 400);
+		    scene.add( cubeVideo );
+
+        //
+
+        var plane = new THREE.PlaneGeometry( window.innerWidth, window.innerHeight, 0, 0 );
+
+        // this affects that big theater screen thing (material)
+
+        meshCanvas = new THREE.Mesh( plane );
+        meshCanvas.scale.x = meshCanvas.scale.y = meshCanvas.scale.z = 1;
+        scene.add(meshCanvas); 
+
+        // what is this?
+
+        /* mesh = new THREE.Mesh( plane );
+        mesh.position.y = -306;
+        mesh.rotation.x = - Math.PI;
+        mesh.scale.x = mesh.scale.y = mesh.scale.z = 1;
+        scene.add( mesh );
+        */
+
+        //
+
+        var separation = 150;
+        var amountx = 10;
+        var amounty = 10;
+
+        var PI2 = Math.PI * 2;
+        var material = new THREE.SpriteCanvasMaterial( {
+
+          color: 0x0808080,
+          program: function ( context ) {
+
+            context.beginPath();
+            context.arc( 0, 0, 0.5, 0, PI2, true );
+            context.fill();
+
+          }
+
+        } );
+
+        for ( var ix = 0; ix < amountx; ix++ ) {
+
+          for ( var iy = 0; iy < amounty; iy++ ) {
+
+            particle = new THREE.Sprite( material );
+            particle.position.x = ix * separation - ( ( amountx * separation ) / 2 );
+            particle.position.y = -153
+            particle.position.z = iy * separation - ( ( amounty * separation ) / 2 );
+            particle.scale.x = particle.scale.y = 10;
+            scene.add( particle );
+
+          }
+
+        }
+
+        renderer = new THREE.CanvasRenderer();
+        renderer.setClearColor( 0xffffff );
+        renderer.setPixelRatio( window.devicePixelRatio );
+        renderer.setSize( window.innerWidth, window.innerHeight );
+        document.body.appendChild( renderer.domElement );
+
+        document.addEventListener( 'mousemove', onDocumentMouseMove, false );
+
+        //
+
+        window.addEventListener( 'resize', onWindowResize, false );
+
+      }
+
+      function onWindowResize() {
+
+        windowHalfX = window.innerWidth / 2;
+        windowHalfY = window.innerHeight / 2;
+
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+
+        renderer.setSize( window.innerWidth, window.innerHeight );
+
+      }
+
+      function onDocumentMouseMove( event ) {
+
+        mouseX = ( event.clientX - windowHalfX );
+        mouseY = ( event.clientY - windowHalfY ) * 0.2;
+
+      }
+
+      //
+
+      function animate() {
+
+        requestAnimationFrame( animate );
+
+        render();
+
+      }
+
+      function render() {
+
+        camera.position.x += ( mouseX - camera.position.x ) * 0.1;
+        camera.position.y += ( - mouseY - camera.position.y ) * 0.1;
+        camera.lookAt( scene.position );
+
+        if ( videoDay1.readyState === videoDay1.HAVE_ENOUGH_DATA ) {
+
+          
+          imageContext.drawImage( videoDay1, 0, 0, 740, 480, 0, -50, 350, 400 );
+
+
+          if ( texture ) texture.needsUpdate = true;
+
+        }
+
+        renderer.render( scene, camera );
+
+      }
+  </script>
+
+</body>
+</html>

@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+    <title>three.js css3d - periodic table</title>
+    <style>
+      html, body {
+        height: 100%;
+      }
+
+      body {
+        background-color: #000000;
+        margin: 0;
+        font-family: Helvetica, sans-serif;;
+        overflow: hidden;
+      }
+
+      a {
+        color: #ffffff;
+      }
+
+      #info {
+        position: absolute;
+        width: 100%;
+        color: #ffffff;
+        padding: 5px;
+        font-family: Monospace;
+        font-size: 13px;
+        font-weight: bold;
+        text-align: center;
+        z-index: 1;
+      }
+
+      #menu {
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+      }
+
+      .element {
+        width: 120px;
+        height: 160px;
+        box-shadow: 0px 0px 12px rgba(0,255,255,0.5);
+        border: 1px solid rgba(127,255,255,0.25);
+        text-align: center;
+        cursor: default;
+      }
+
+      .element:hover {
+        box-shadow: 0px 0px 12px rgba(0,255,255,0.75);
+        border: 1px solid rgba(127,255,255,0.75);
+      }
+
+        .element .symbol {
+          position: absolute;
+          top: 5px;
+          left: 0px;
+          right: 0px;
+          font-size: 40px;
+          font-weight: bold;
+          color: rgba(255,255,255,0.75);
+          text-shadow: 0 0 10px rgba(0,255,255,0.95);
+        }
+
+        .element .details {
+          position: absolute;
+          bottom: 15px;
+          left: 0px;
+          right: 0px;
+          font-size: 12px;
+          color: rgba(127,255,255,0.75);
+        }
+        .element .video {
+          width: 120px;
+          height: 70px;
+          z-index: -1;
+        }
+
+      button {
+        color: rgba(127,255,255,0.75);
+        background: transparent;
+        outline: 1px solid rgba(127,255,255,0.75);
+        border: 0px;
+        padding: 5px 10px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: rgba(0,255,255,0.5);
+      }
+      button:active {
+        color: #000000;
+        background-color: rgba(0,255,255,0.75);
+      }
+    </style>
+  </head>
+  <body>
+    <script src="../js/three.min.js"></script>
+    <script src="../js/libs/tween.min.js"></script>
+    <script src="../js/controls/TrackballControls.js"></script>
+    <script src="../js/renderers/CSS3DRenderer.js"></script>
+    <script src='../js/libs/stats.min.js'></script>
+
+    <div id="container"></div>
+    
+    <div id="menu">
+      <button id="table">TABLE</button>
+      <button id="sphere">SPHERE</button>
+      <button id="helix">HELIX</button>
+      <button id="grid">GRID</button>
+      <button id="closeup">Close-Up Test</button>
+    </div>
+
+    <script>
+
+      var table = [
+        "Day 1", "../footage/airplane.webm", "Hydrogen", "1.00794", 1, 1,
+        "Day 2", "../footage/airplane.webm", "Helium", "4.002602", 2, 1,
+        "Day 3", "../footage/bigbuckbunny.webm", "Lithium", "6.941", 3, 1,
+        "Day 4", "../footage/airplane.webm", "Beryllium", "9.012182", 4, 1,
+        "Day 5", "../footage/oceans.webm", "Boron", "10.811", 5, 1, 
+        "Day 6", "../footage/sintel.webm", "Carbon", "12.0107", 1, 2, 
+        "Day 7", "../footage/airplane.webm", "Nitrogen", "14.0067", 2, 2, 
+        "Day 8", "../footage/airplane.webm", "Oxygen", "15.9994", 3, 2, 
+        "Day 9", "../footage/airplane.webm", "Fluorine", "18.9984032", 4, 2, 
+        "Day 10", "../footage/airplane.webm", "Neon", "20.1797", 5, 2, 
+        "Day 11", "../footage/airplane.webm", "Sodium", "22.98976...", 1, 3, 
+        "Day 12", "../footage/airplane.webm", "Magnesium", "24.305", 2, 3, 
+        "Day 13", "../footage/airplane.webm", "Aluminium", "26.9815386", 3, 3, 
+        "Day 14", "../footage/airplane.webm", "Silicon", "28.0855", 4, 3, 
+        "Day 15", "../footage/airplane.webm", "Phosphorus", "30.973762", 5, 3, 
+        "Day 16", "../footage/airplane.webm", "Sulfur", "32.065", 1, 4, 
+        "Day 17", "../footage/airplane.webm", "Chlorine", "35.453", 2, 4, 
+        "Day 18", "../footage/airplane.webm", "Argon", "39.948", 3, 4, 
+        "Day 19", "../footage/airplane.webm", "Potassium", "39.948", 4, 4, 
+        "Day 20", "../footage/airplane.webm", "Calcium", "40.078", 5, 4, 
+        "Day 21", "../footage/airplane.webm", "Scandium", "44.955912", 1, 5, 
+        "Day 22", "../footage/airplane.webm", "Titanium", "47.867", 2, 5, 
+        "Day 23", "../footage/airplane.webm", "Vanadium", "50.9415", 3, 5, 
+        "Day 24", "../footage/airplane.webm", "Chromium", "51.9961", 4, 5, 
+        "Day 25", "../footage/airplane.webm", "Manganese", "54.938045", 5, 5, 
+        "Day 26", "../footage/airplane.webm", "Iron", "55.845", 1, 6, 
+        "Day 27", "../footage/airplane.webm", "Cobalt", "58.933195", 2, 6, 
+        "Day 28", "../footage/airplane.webm", "Nickel", "58.6934", 3, 6, 
+        "Day 29", "../footage/airplane.webm", "Copper", "63.546", 4, 6, 
+        "Day 30", "../footage/airplane.webm", "Zinc", "65.38", 5, 6, 
+        "Day 31", "../footage/airplane.webm", "Gallium", "69.723", 1, 7, 
+        "Day 32", "../footage/airplane.webm", "Germanium", "72.63", 2, 7, 
+        "Day 33", "../footage/airplane.webm", "Arsenic", "74.9216", 3, 7, 
+        "Day 34", "../footage/airplane.webm", "Selenium", "78.96", 4, 7, 
+        "Day 35", "../footage/airplane.webm", "Bromine", "79.904", 5, 7, 
+        "Day 36", "../footage/airplane.webm", "Krypton", "83.798", 1, 8, 
+        "Day 37", "../footage/airplane.webm", "Rubidium", "85.4678", 2, 8, 
+        "Day 38", "../footage/airplane.webm", "Strontium", "87.62", 3, 8, 
+        "Day 39", "../footage/airplane.webm", "Yttrium", "88.90585", 4, 8, 
+        "Day 40", "../footage/airplane.webm", "Zirconium", "91.224", 5, 8, 
+        "Day 41", "../footage/airplane.webm", "Niobium", "92.90628", 1, 9, 
+        "Day 42", "../footage/airplane.webm", "Molybdenum", "95.96", 2, 9, 
+        "Day 43", "../footage/airplane.webm", "Technetium", "(98)", 3, 9, 
+        "Day 44", "../footage/airplane.webm", "Ruthenium", "101.07", 4, 9, 
+        "Day 45", "../footage/airplane.webm", "Rhodium", "102.9055", 5, 9, 
+        "Day 46", "../footage/airplane.webm", "Palladium", "106.42", 1, 10, 
+        "Day 47", "../footage/airplane.webm", "Silver", "107.8682", 2, 10, 
+        "Day 48", "../footage/airplane.webm", "Cadmium", "112.411", 3, 10, 
+        "Day 49", "../footage/airplane.webm", "Indium", "114.818", 4, 10, 
+        "Day 50", "../footage/airplane.webm", "Tin", "118.71", 5, 10
+      ];
+
+      var camera, scene, renderer;
+      var controls;
+
+      var objects = [];
+      var targets = { table: [], sphere: [], helix: [], grid: [], closeup: [] };
+
+      //
+
+      init();
+      animate();
+
+      function init() {
+
+        camera = new THREE.PerspectiveCamera( 40, window.innerWidth / window.innerHeight, 1, 10000 );
+        camera.position.z = 2000;
+
+        scene = new THREE.Scene();
+        
+
+        // table
+
+        for ( var i = 0; i < table.length; i += 6 ) {
+
+          var element = document.createElement( 'div' );
+          element.className = 'element';
+          element.style.backgroundColor = 'rgba(0,127,127,' + ( Math.random() * 0.5 + 0.25 ) + ')';
+
+          var video = document.createElement( 'video' );
+          video.className = 'video';
+          video.src = table[ i + 1 ];
+          video.load();
+          video.play();
+          video.muted = true;
+          video.loop = true;
+          element.appendChild( video );
+
+          var symbol = document.createElement( 'div' );
+          symbol.className = 'symbol';
+          symbol.innerHTML = '<a href="http://www.billimarie.com">' + table[ i ] + '</a>';
+          element.appendChild( symbol );
+
+          var details = document.createElement( 'div' );
+          details.className = 'details';
+          details.innerHTML = table[ i + 2 ] + '<br />' + table[ i + 3 ];
+          element.appendChild( details );
+
+          //
+
+          var object = new THREE.CSS3DObject( element );
+          object.id = 'Day' + [i];
+          object.position.x = Math.random() * 4000 - 2000;
+          object.position.y = Math.random() * 4000 - 2000;
+          object.position.z = Math.random() * 4000 - 2000;
+
+          scene.add( object );
+
+          objects.push( object );
+
+          //
+
+          object.addEventListener( 'click', function () {
+            document.getElementByID(object.id).style.backgroundColor = 'red';
+            }
+          );
+
+          //
+
+          var object = new THREE.Object3D();
+          object.position.x = ( table[ i + 4 ] * 150 ) - 450;
+          object.position.y = - ( table[ i + 5 ] * 180 ) + 800;
+
+          targets.table.push( object );
+
+        }
+
+        // sphere
+
+        var vector = new THREE.Vector3();
+
+        for ( var i = 0, l = objects.length; i < l; i ++ ) {
+
+          var phi = Math.acos( -1 + ( 2 * i ) / l );
+          var theta = Math.sqrt( l * Math.PI ) * phi;
+
+          var object = new THREE.Object3D();
+
+          object.position.x = 800 * Math.cos( theta ) * Math.sin( phi );
+          object.position.y = 800 * Math.sin( theta ) * Math.sin( phi );
+          object.position.z = 800 * Math.cos( phi );
+
+          vector.copy( object.position ).multiplyScalar( 2 );
+
+          object.lookAt( vector );
+
+          targets.sphere.push( object );
+
+        }
+
+        // helix
+
+        var vector = new THREE.Vector3();
+
+        for ( var i = 0, l = objects.length; i < l; i ++ ) {
+
+          var phi = i * 0.175 + Math.PI;
+
+          var object = new THREE.Object3D();
+
+          object.position.x = 900 * Math.sin( phi );
+          object.position.y = - ( i * 8 ) + 450;
+          object.position.z = 900 * Math.cos( phi );
+
+          vector.x = object.position.x * 2;
+          vector.y = object.position.y;
+          vector.z = object.position.z * 2;
+
+          object.lookAt( vector );
+
+          targets.helix.push( object );
+
+        }
+
+        // grid
+
+        for ( var i = 0; i < objects.length; i ++ ) {
+
+          var object = new THREE.Object3D();
+
+          object.position.x = ( ( i % 5 ) * 400 ) - 800;
+          object.position.y = ( - ( Math.floor( i / 5 ) % 5 ) * 400 ) + 800;
+          object.position.z = ( Math.floor( i / 25 ) ) * 1000 - 2000;
+
+          targets.grid.push( object );
+
+        }
+
+        // close-up test
+
+        for ( var i = 0; i < objects.length; i ++ ) {
+
+          var object = new THREE.Object3D();
+
+          object.position.x = ( ( i % 6 ) * 600 ) - 1000;
+          object.position.y = ( - ( Math.floor( i / 5 ) % 5 ) * 400 ) + 1000;
+          object.position.z = ( Math.floor( i / 25 ) ) * 1000 + 1000;
+
+          targets.closeup.push( object );
+
+        }
+
+        //
+
+        renderer = new THREE.CSS3DRenderer();
+        renderer.setSize( window.innerWidth, window.innerHeight );
+        renderer.domElement.style.position = 'absolute';
+        document.getElementById( 'container' ).appendChild( renderer.domElement );
+
+        //
+
+        controls = new THREE.TrackballControls( camera, renderer.domElement );
+        controls.rotateSpeed = 0.5;
+        controls.minDistance = 0;
+        controls.maxDistance = 3000;
+        controls.addEventListener( 'change', render );
+
+        var button = document.getElementById( 'table' );
+        button.addEventListener( 'click', function ( event ) {
+
+          transform( targets.table, 1000 );
+
+        }, false );
+
+        var button = document.getElementById( 'sphere' );
+        button.addEventListener( 'click', function ( event ) {
+
+          transform( targets.sphere, 1000 );
+
+        }, false );
+
+        var button = document.getElementById( 'helix' );
+        button.addEventListener( 'click', function ( event ) {
+
+          transform( targets.helix, 1000 );
+
+        }, false );
+
+        var button = document.getElementById( 'grid' );
+        button.addEventListener( 'click', function ( event ) {
+
+          transform( targets.grid, 1000 );
+
+        }, false );
+
+        var button = document.getElementById( 'closeup' );
+        button.addEventListener( 'click', function ( event ) {
+
+          transform( targets.closeup, 1000 );
+
+        }, false );
+
+        transform( targets.closeup, 1000 );
+
+
+        //
+
+        stats = new Stats();
+        stats.domElement.style.position = 'absolute';
+        stats.domElement.style.top = '0px';
+        container.appendChild( stats.domElement );
+
+        //
+
+        window.addEventListener( 'resize', onWindowResize, false );
+
+      }
+
+      function transform( targets, duration ) {
+
+        TWEEN.removeAll();
+
+        for ( var i = 0; i < objects.length; i ++ ) {
+
+          var object = objects[ i ];
+          var target = targets[ i ];
+
+          new TWEEN.Tween( object.position )
+            .to( { x: target.position.x, y: target.position.y, z: target.position.z }, Math.random() * duration + duration )
+            .easing( TWEEN.Easing.Exponential.InOut )
+            .start();
+
+          new TWEEN.Tween( object.rotation )
+            .to( { x: target.rotation.x, y: target.rotation.y, z: target.rotation.z }, Math.random() * duration + duration )
+            .easing( TWEEN.Easing.Exponential.InOut )
+            .start();
+
+        }
+
+        new TWEEN.Tween( this )
+          .to( {}, duration * 2 )
+          .onUpdate( render )
+          .start();
+
+      }
+
+      function onWindowResize() {
+
+        camera.aspect = window.innerWidth / window.innerHeight;
+        camera.updateProjectionMatrix();
+
+        renderer.setSize( window.innerWidth, window.innerHeight );
+
+        render();
+
+      }
+
+      function animate() {
+
+        requestAnimationFrame( animate );
+
+        TWEEN.update();
+
+        controls.update();
+
+      }
+
+      function render() {
+
+        renderer.render( scene, camera );
+        stats.update();
+
+      }
+
+    </script>
+  </body>
+</html>

@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <title>Wireframe Cube</title>
+    <style>
+      body { margin: 0px;
+      background-color: #000;
+      overflow: hidden; }
+      canvas { width: 100%; height: 100%; }
+      #d {
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        margin: 1em 0 -4.5em 0;
+        z-index: 1000;
+      }
+      .bwrap {
+        margin: 0.5em 0 0 0;
+      }
+      button { 
+        font-family: georgia;
+        border: 0;
+        background: #000;
+        color: #fff;
+        padding: 0.2em 0.5em;
+        cursor: pointer;
+      }
+      button:hover {
+        background: #333;
+      }
+      #buttons_cars button {
+        color: #fa0;
+      }
+      #car_info {
+        text-align: center;
+      }
+      #car_name {
+        font-size: 1em;
+      }
+      #car_author {
+        font-size: 1em;
+      }
+      #oldie {
+        background: rgb(50,0,0) !important;
+        color: #fff !important;
+        margin-top: 7em !important;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <div id="d">
+      <div id="info">
+        Test.
+        <span id="car_info">
+          <span id="car_name">Bugatti Veyron model</span>
+          by <span id="car_author"><a href="http://artist-3d.com/free_3d_models/dnm/model_disp.php?uid=1129" target="_blank">Troyano</a></span>
+        </span>
+
+      </div>
+
+      <div id="buttons_cars" class="bwrap">
+        <button id="veyron">Bugatti Veyron</button>
+        <button id="gallardo">Lamborghini Gallardo</button>
+        <button id="f50">Ferrari F50</button>
+        <button id="camaro">Chevrolet Camaro</button>
+      </div>
+
+      <div id="buttons_materials" class="bwrap"></div>
+    </div>
+
+    <script src="../js/three.min.js"></script>
+    <script src="../js/wireframe-cube.js"></script>
+    <script src="../js/loaders/BinaryLoader.js"></script>
+    <script src="../js/Detector.js"></script>
+    <script src="../js/libs/stats.min.js"></script>
+  </body>
+</html>
